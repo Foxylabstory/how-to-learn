@@ -104,7 +104,7 @@
 }
 
 .two-columns {
-  padding: 100px 0;
+  padding-top: 100px;
   width: 80%;
   display: flex;
   flex-direction: row;
@@ -206,7 +206,7 @@
 }
 
 .feynman {
-  height: 890px;
+  min-height: 890px;
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -254,7 +254,7 @@
   background-color: #1f1f1f;
   overflow: hidden;
   position: relative;
-  z-index: -2;
+  /*z-index: -2;*/
 }
 
 .section-title_theme_dark {
@@ -269,6 +269,7 @@
 
 .table_theme_dark {
   margin: 0 auto 90px;
+  z-index: 1;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -289,7 +290,7 @@
   background-repeat: no-repeat;
   /*background-size: 877px 877px;*/
   margin: 0;
-  z-index: -1;
+  /*z-index: -1;*/
 }
 
 .footer {
@@ -304,7 +305,7 @@
   width: 90%;
   margin: 60px auto 40px;
   flex-flow: row;
-  align-items: center;
+  /*align-items: center;*/
   justify-content: space-between;
 }
 

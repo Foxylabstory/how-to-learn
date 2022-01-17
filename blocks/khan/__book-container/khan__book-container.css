@@ -1,0 +1,5 @@
+.khan__book-container.css {
+  display: flex;
+  justify-items: start;
+  justify-content: start;
+}
